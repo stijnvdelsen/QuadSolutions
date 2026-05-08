@@ -14,6 +14,18 @@ Here are my technical considerations listed for this assignment. The goal of thi
 
 ### Frontend
 - **React**: my Javascript framework of choice is React normally. React is widely supported framework for creating single page applications (SPA). React works by managing the lifecycle of the page. It renders the DOC based on the Javascript code and will rerender if certain conditions are met (for example state changes). React can be very fast and it has a very large ecosystem. The React version used is the LTS version: 
-- **Typescript)
+- **Typescript**: for larger projects I would always suggest using Typescript for type enforcement.
+- **PrimeReact**: I always use component frameworks for better styling and handling of the components in my webapp. I personally like the simplistic style of PrimeReact.
+- **Redux**: state management is a large part of React. Normally you handle the stae only for the scopr of the component in which the state is declared. For states that are global for your application, for example authentication tokens or for this assignment the session token you can use libraries such as Redux to handle states that are global in your application.
 
 ### Backend
+- **.NET Core**
+- **Exception handling**
+- **Logging**
+- **XUnit**
+
+### Deployment
+- **Docker**
+- **Nginx**
+
+## Security considerations
